@@ -26,12 +26,16 @@ We will used Restricted Mean Survival Time, and some dummy data. The data has a 
 ## Method
 To calculate the RMST for each group, we used R-studio and the Survival package, we’ll do a 180-day RMST to see if we make our money back in the first six months. We fit a survival curve for each group, then we get the 180-days RMST for each group, the result, and the plot as fellow: 
 
+
+![6](https://user-images.githubusercontent.com/58350018/80561488-426b5f00-89aa-11ea-9e80-1ff5060acd32.png)
+
+
+
+![7](https://user-images.githubusercontent.com/58350018/80561495-45fee600-89aa-11ea-82d0-015a08d1190d.jpg)
+
  
 
 
-
-
- 
 
 As you can see, the RMST for the group that got the free credits is 163 days, 40 days greater than the group that didn’t. If we divide 40 by 30 to put it in terms of months, then multiply by $5 of revenue, we know that we can expect to get $6.67 in extra revenue out of a customer that got a credit vs. one that didn’t in the sixth months after their glitch. This implies that a $5 credit is likely well worth the cost.
  
